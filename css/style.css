@@ -1,0 +1,31 @@
+body {
+    color: White;
+    background-color: Black;
+    height: 100%;
+    margin: 60px;
+    font-size: 18px; 
+  }
+  
+  h1 {
+    color: #6495ED;
+  }
+
+  #red {
+    color: red;
+  }
+
+  #blue {
+    color: blue;
+  }
+
+  #orange {
+    color: orange;
+  }
+
+
+  
+/* Scale canvas with resize attribute to full size */
+canvas[resize] {
+    width: 100%;
+    height: 100%;
+}
