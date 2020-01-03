@@ -41,7 +41,7 @@ simulation.prototype = {
             planet.circle.fillColor = planet.color;
             planet.path = new Path();
             planet.path.strokeColor = planet.color;
-            planet.path.strokeWidth = 3
+            planet.path.strokeWidth = 2
             planet.path.add(new Point(this.paperCoordinates(planet.position)));
         }
     },
@@ -158,13 +158,13 @@ simulation.prototype = {
 
 var systems = {
     unstable: [
-        {mass: 200, x: 0, y: 0, velX: 0, velY: 0, color: "orange", radius: 9},
-        {mass: 0.001, x: 60, y: 0, velX: 0, velY: -120, color: "#6495ED", radius: 5},
+        {mass: 200, x: 0, y: 0, velX: 0, velY: 0, color: "red", radius: 9},
+        {mass: 0.001, x: 60, y: 0, velX: 0, velY: -120, color: "blue", radius: 6},
         {mass: 200, x: 200, y: 0, velX: 0, velY: -120, color: "orange", radius: 9}
     ],
     stable: [
-        {mass: 200, x: 0, y: 0, velX: 0, velY: 0, color: "orange", radius: 9},
-        {mass: 0.001, x: 52, y: 0, velX: 0, velY: -200, color: "#6495ED", radius: 5},
+        {mass: 200, x: 0, y: 0, velX: 0, velY: 0, color: "red", radius: 9},
+        {mass: 0.001, x: 52, y: 0, velX: 0, velY: -200, color: "blue", radius: 6},
         {mass: 200, x: 200, y: 0, velX: 0, velY: -140, color: "orange", radius: 9}
     ]
 }
