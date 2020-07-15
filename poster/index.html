@@ -15,12 +15,14 @@
         background: #f3e2a9;
         color: #8a4b08;
       }
+
       h3 {
         margin-top: 0px;
       }
     </style>
     <title>Stability of planetary motion</title>
   </head>
+
   <body>
     <div class="container" style="margin-top: 20px;">
       <div class="row">
@@ -43,19 +45,50 @@
           <div class="panel panel-default">
             <div class="panel-body">
               <p>
-                <strong>Abstract</strong><br />This example shows how you can
-                create with some simple HTML, and powered by the Bootstrap 3 CSS
-                framework, a multimedia poster for Exoplanets 3 Online. You only
-                need to submit the HTML file (which is only a few kilobytes
-                long). All the images and movies are simply linked to a server
-                where you place your material. Movies are easily embedded by
-                putting them on youtube, and using the iframe HTML command. Just
-                look at the HTML source of this poster to see how it works. Note
-                that Bootstrap assures that the poster elements scale properly
-                when viewed on handheld devices. This example is very
-                rudimentary. You can make it much better, e.g improving the
-                layout, adding backgrounds, placing links to your papers, you
-                name it. Use your creativity!
+                <strong>Abstract</strong><br />
+                Many exoplanets have been discovered in binary star systems, on
+                internal (S-type) or circumbinary (P-type) orbits. In this
+                study, we considered for the first time the problem of stability
+                for planets of finite (non negligible) mass. Previous studies
+                did not use a high precision integration scheme, and assumed the
+                mass of the planet as negligible. We approached the problem by
+                selecting a huge set of initial conditions for planetary orbits
+                of the S-type, to perform high precision, very extended in time
+                integrations at varying: the planet mass, its distance from the
+                primary star, the mass ratio for the two stars in the system,
+                and the eccentricity of the initial star motion. For our
+                numerical integrations, we resorted to the use of a 15th order
+                integration scheme (IAS15, available within the
+                <a href="https://rebound.readthedocs.io/" target="_blank"
+                  >REBOUND</a
+                >
+                framework), that provides an optimal solution for long-term time
+                integrations. We estimated the probability of different types of
+                instability: planet collisions with the primary or secondary
+                star or planet ejected away from the binary star system. We
+                confirm and generalize to massive planets the dependence of the
+                critical semi-major axis on eccentricity and mass ratio of the
+                binary already found by
+                <a
+                  href="https://ui.adsabs.harvard.edu/abs/1999AJ....117..621H/abstract"
+                  target="_blank"
+                  >Holman and Wiegert (1999, AJ, 117, n.1, 621)</a
+                >. We were also able to pick a significant number of orbits that
+                are only <em>marginally stable</em>, according to the
+                classification introduced by
+                <a
+                  href="https://ui.adsabs.harvard.edu/abs/2005A%26A...434..355M/abstract"
+                  target="_blank"
+                  >Museliak et al. (2005, AA, 434, 355)</a
+                >. Another, natural, extension of our previous work has been the
+                study of perturbations induced to circumbinary planet motion by
+                a passing by star, like it often happens in a star cluster. We
+                performed a series of more than 4500 scattering experiments with
+                different initial conditions typical of encounters in small star
+                clusters. We found some interesting behaviors of the systems
+                after perturbation and showed how a transition from an inner
+                (S-type) stable orbit to a circumbinary (P-type) (and
+                vice-versa) has a low probability.
               </p>
             </div>
           </div>
@@ -135,17 +168,6 @@
                 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
                 minim veniam, quis nostrud exercitation ullamco laboris nisi ut
                 aliquip ex ea commodo consequat.
-              </p>
-              <p>
-                <iframe
-                  width="100%"
-                  height="auto"
-                  src="https://www.youtube.com/embed/EAIUJaaVJ9U"
-                >
-                </iframe>
-              </p>
-              <p class="small">
-                <em>Movie 1: CHEOPS advertisement. Credit: ESA</em>
               </p>
             </div>
           </div>
