@@ -15,7 +15,7 @@ h3 {
 margin-top:0px;
 }
 </style>
-<title>Stability of planetary motion in binary star systems</title>
+<title>Poster example</title>
 </head>
 <body>
 <div class='container' style='margin-top:20px'>
@@ -23,8 +23,8 @@ margin-top:0px;
     <div class='col-sm-12'>
       <div class='panel panel-default'>
         <div class='panel-body panel-custom-title'>
-          <h1 class='text-center'>Stability of planetary motion in binary star systems</h1>
-          <p class='text-center'>De Cesare, Giovanni (INAF); Capuzzo-Dolcetta, Roberto (University of Rome); Marino, Alessio (University  of Rome)</p>
+          <h1 class='text-center'>Example of an html poster for Exo3-Online</h1>
+          <p class='text-center'>Sarah Voorbeeld (Universiteit van Amsterdam), Max Mustermann (Heidelberg University), Linda Examplia (Cambridge University)</p>
         </div>
       </div>
     </div>
@@ -33,13 +33,14 @@ margin-top:0px;
     <div class='col-sm-12'>
       <div class='panel panel-default'>
         <div class='panel-body'>
-          <p><strong>Abstract</strong><br>Many exoplanets have been discovered in binary star systems, on internal (S-type) or circumbinary (P-type) orbits.
-In this study, we considered the problem of stability for planets of finite (non negligible) mass. We approached the problem by selecting a huge set of initial conditions for planetary orbits of the S-type, to perform high precision and very extended in time integrations at varying: the planet mass, its distance from the primary star, the mass ratio for the two stars in the system, and the eccentricity of the initial star motion.
-For our numerical integrations, we resorted to the use of a 15th order integration scheme (IAS15, available within the REBOUND framework), that provides an optimal solution for long-term time integrations.  We estimated the probability of different types of instability: planet collisions with the primary or secondary star or planet ejected away from the binary star system. We confirm and generalize to massive planets the dependence of the critical semi-major axis on eccentricity and mass ratio of the binary already found by Holman and Wiegert (1999, AJ, 117, n.1, 621)
-We were also able to pick a significant number of orbits that are only `marginally' stable, according to the classification introduced by Museliak et al. (2005, A&A, 434, 355).
-Another, natural, extension of our previous work has been the study of perturbations induced to circumbinary planet motion by a passing-by star, like it often happens in a star cluster.
-One of the  targets of this analysis is the investigation of the possibility that a planet, formerly on a stable S-type orbit around one of the two stars, could transit to a stable P-type orbit. We performed a series of more than 4500 scattering experiments with different initial conditions typical of encounters in small star clusters. We found some interesting behaviors of the systems after perturbation and showed how a transition from an inner (S-type) stable orbit to a circumbinary (P-type) (and vice-versa) has a very low (but non null) probability.
-</p>
+          <p><strong>Abstract</strong><br>This example shows how you can create with some simple HTML, and powered by the Bootstrap 3 CSS
+            framework, a multimedia poster for Exoplanets 3 Online. You only need to submit the HTML file
+            (which is only a few kilobytes long). All the images and movies are simply linked to a server
+            where you place your material. Movies are easily embedded by putting them on youtube, and
+            using the iframe HTML command. Just look at the HTML source of this poster to see how it works.
+            Note that Bootstrap assures that the poster elements scale properly when viewed on handheld devices.
+            This example is very rudimentary. You can make it much better, e.g improving the layout, adding
+            backgrounds, placing links to your papers, you name it. Use your creativity!</p>
         </div>
       </div>
     </div>
@@ -49,21 +50,16 @@ One of the  targets of this analysis is the investigation of the possibility tha
       <div class='panel panel-default'>
         <div class='panel-body'>
           <h3>Introduction</h3>
-          <p>Orbits of planets in binary systems are traditionally classified into three categories \citep{dvo86}: i) the Planet-type (P-type) external orbits around both stars in the binary, ii) the Satellite type (S-type) internal orbits, around one of the two stars, and iii) the Libration-type (L-type) orbits, corresponding to librations around the  Lagrangian equilibrium points L$_4$ and L$_5$, which are stable when the stellar mass ratio $m_1/(m_1+m_2)$ is less than $\sim 0.04$ (assuming $m_1 < m_2$). While L-type orbits are not of normal interest for exoplanets in binary systems, P-type and S-type orbits are indeed of relevant astronomical impact and deserve to be deeply studied in their characteristics.
-    The stability problem of planetary orbits in binary star systems have been investigated by many authors, with different methods and in different schemes, assuming that the mass of the planet is negligible. After pioneering work by \cite{hen68,hen69}, \cite{hengu70}, and \cite{sz80}, numerical approaches have been done by \cite{dvo86} (P-orbits in restricted assumptions),  \cite{1988A&A...191..385R} (S-orbits in restricted assumptions), and  \cite{pildvo02} (S-orbits with less restrictions). \cite{dvo86} and \cite{1988A&A...191..385R} numerically integrated a set of orbits by mean of a scheme based on Lie-series, as developed by \cite{de85} whose drawback is that of being limited to infinitesimal mass for the third-body, in what the primaries motion is assumed as the analytical solution of the two-body problem. The work done by \cite{pildvo02} using Bulirsh-Stoer algorithm, does not encounter in principle this limitation, but it was applied by the authors, again, to zero mass planets. Later on \cite{howi99}, (hereafter referred to as H99), using a modified symplectic mapping technique initially developed by \cite{wiho91} to study the secular behavior of planetary motion around a dominating mass, investigated the planet orbital stability extending significantly with respect to previous works the time basis of integration. A straightforward Runge-Kutta-Fehlberg numerical technique was adopted by \cite{mu05} who dealt with the stability of initially circular planetary orbits in both S- and P- configurations in the field of two primaries revolving each other at a fixed distance. All these studies and results stimulated more specific works aimed on observational implications, including considerations on the habitability regions \cite[see, for instance]\cite{cu14,cu15}. In systems with multiple planets orbiting around a single star, the minimum distance beyond which there are no close encounters is determined by the Hill stability limit $\Delta$. \cite{Marzari2016} find that in binary systems the value of $\Delta$ is close to that calculated for planets that orbit around a single star, but with significant differences in the dynamic characteristics of motion.
-    In this work we study the stability of S-type orbits - hereafter also called  internal - of planets with a negligible mass as well as with a mass of the order of one or some Jupiter mass. The paper is organized as follows. In Section \ref{sec:methods} we define the dataset made up with a huge number planetary orbits that we have numerically integrated at different initial conditions, and we describe the data analysis. In Section \ref{sec:results} we report on the results. We end up with the discussion in Section \ref{sec:discussion}.
-</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         </div>
       </div>
       <div class='panel panel-default'>
         <div class='panel-body'>
           <h3>Model</h3>
-          <p>We approach the problem of the planet orbital stability in a numerical way, by integrating the orbits under different initial conditions. We consider a system made up by two star $A$ (called primary) and $B$ (called secondary) in motion around their center of mass, with the planet in a co-planar orbit with zero initial eccentricity.  With \emph{unperturbed} orbit we will call the orbit around the primary star that the planet would have without the presence of the secondary star; in our configuration the  \emph{unperturbed} orbit is circular.
-We varied: i) the mass ratio of the 2 stars, ii) their orbital eccentricity; iii) the initial planetary orbit radius; iv) the planet mass.
-By putting all these degrees of freedom together, our dataset is made by more than ten thousand orbits.
-To obtain, at the same time, an acceptable calculation time and accuracy we use the  high-precision (15th order) integration scheme \emph{IAS15} \cite{Rein2015}. With \emph{IAS15} the systematics errors are kept below machine precision for long term integration over at least $10^9$ orbital time scale. \emph{IAS15} is an integration options available in REBOUND \cite{Rein2012}, a modern open source code for gravitational dynamics. REBOUND is written in standard C99; an easy to use and convenient python wrapper is also provided.
-Unstable orbits are defined as those that lead the planet either to a \textit{collision} onto one of the two stars or to \textit{escape} from the system. We adopted a practical(efficient) quantitative criterion based on the variation of the planet trajectory respect to the initial one.
-</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+          <p><img src='https://www.nasa.gov/sites/default/files/14-111-kepler_0.jpg' width='100%' height='auto'></p>
+          <p class='small'><em>Figure 1: Exoplanet artist impression. Credit: NASA</em></p>
+          <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         </div>
       </div>
     </div>
@@ -71,26 +67,14 @@ Unstable orbits are defined as those that lead the planet either to a \textit{co
       <div class='panel panel-default'>
         <div class='panel-body'>
           <h3>Results</h3>
-          <p>\label{sec:results}
-
-    We now report how our simulated planetary orbits depend on the initial conditions for the mass and initial semi-major axis of the planet, and on the mass ratio and eccentricity of the binary star system.
-
-
-\subsection{Stability of the orbits}
-\label{sec:stability}
-
-    \input{table_stability.tex}
-    \input{table_rc_mp30}
-    For a given binary, the planetary motion depends mainly upon the initial semi-major axis $a$ of the planetary orbit. In general, a planet with a small a, i.e. revolving close to the primary star, has a stable orbit. We apply here the idea, introduced by H99, of critical semi-major axis $a_c$ as threshold from stability to instability, to evaluate how orbital stability depends on the mass ratio $\mu$ and the eccentricity $e$ of the binary star system. We notice that $a_c$ is well defined only if the boundary between the region of stability (where $a \le a_c$) and instability where ($a > a_c$) is sharp .
-
-    In Tables  \ref{tab:stability_p} and \ref{tab:stability_a} we report the results for a binary star system with $e = 0.5$  and $\mu = 0.5$; in Table \ref{tab:stability_p} the binary is initially at periapse, in Table \ref{tab:stability_a} the binary is initially at apoapse.
-
-    Our choice of considering eight values ($0$, $\pi/4$, $\pi/2$, $(3/4) \pi$, $\pi$, $(5/4) \pi$, $(3/2) \pi$, $(7/4)\pi$, $2\pi$) for the initial longitude of the planet allows a robust estimate of $a_c = 0.12$, that is the same value obtained by H99. We characterize the stable orbits by the value of $\Delta r$ (see end of Sect. \ref{sec:methods}). For stable orbits, in some cases we estimate a value of $\Delta r$ greater than $5\%$, which define a marginally stable orbits, according to the classification introduced for the first time by \cite{Musielak2005}.
-
-    For unstable orbits, we evaluate whether i) there is a collision with the primary star (CA) or ii) with the secondary star (CB), or iii) if the planet is ejected away from the binary star system (EJ). In the particular case of a binary with $\mu = 0.5$ and $e = 0.5$, most of the instabilities correspond to collisions with the primary star, but there are also ejections and a few collisions with the secondary star. We obtain different survival times than H99, likely due to the different, and much more accurate, integration scheme we adopted.
-
-    We then study the dependence of the critical semi-major axis on the mass ratio $\mu$ (from $0.1$ to $0.9$) and eccentricity $e$ (from $0$ to $0.8$) of the binary star system for a planet of negligible mass and of 30 times the Jupiter mass. In Table \ref{tab:rc_mp_eq_30mj} we report the results. Our results for planets of negligible mass are in substantial agreement with H99.
-</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+          <p><a href='https://tess.mit.edu/publications/' target='_blank'>
+            <img src='https://tess.mit.edu/wp-content/uploads/wasp-18b-as-1024x743.png' width='100%' height='auto'></a></p>
+          <p class='small'><em>Figure 2: TESS light curve. Credit: MIT</em></p>
+          <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          <p><iframe width='100%' height='auto' src="https://www.youtube.com/embed/EAIUJaaVJ9U">
+          </iframe></p>
+          <p class='small'><em>Movie 1: CHEOPS advertisement. Credit: ESA</em></p>
         </div>
       </div>
     </div>
@@ -104,41 +88,16 @@ Unstable orbits are defined as those that lead the planet either to a \textit{co
       <div class='panel panel-default'>
         <div class='panel-body'>
           <h3>Conclusion</h3>
-          <p>We simulated  more than ten thousand orbits of planets around its primary star in a binary system. We have, thus, studied the fate of what are commonly called S-orbits for planets in a binary. To do this we employed a high precision, $15$th order, integration scheme.
-
-    We estimated the so called \textit{critical} semi-major axis, discriminating between stable and unstable orbits, as a function of the mass ratio and orbital eccentricity of the binary star system hosting the planet. For the first time in literature, we have considered in our study planets of non negligible mass. Actually, we considered three values of the planetary mass: $0$, $1$, $30$ Jupiter mass  (as \textit{zero} mass planet we mean a planet of \textit{negligible} mass). This is a reasonable interval of planet masses, because it covers the observational one. Indeed, looking at the distribution of the masses measured in binary systems (Fig. \ref{fig:masses}), we note that the majority of the planets have a mass equal to about two hundredths of the Jupiter mass, with a distribution of masses extending up to 16.1 Jupiter mass \citep{Liu2008}. Considering all the planetary systems (i.e. including those around single stars), the largest mass found is equal to 22.6 Jupiter mass \citep{Sato2010}. Considering as stability indicator the so called critical semi-major axis, we obtained, for planets of negligible mass, results in substantial agreement with those reported by the seminal work by H99. However, we find for massive planets some differences in the  $a_c$ estimation compared with test particles (see Table \ref{tab:rc_mp_eq_30mj}). We measured, for all the orbits resulting to be stable according the critical semi-major axis criterion, the spread ($\Delta r$) of the distance of the planet from the primary star with respect to its initial value, showing that a fraction of these orbits is only \textit{marginally} stable, according with the classification of \cite{Musielak2005}.
-
-    Our data analysis also produces statistics of planet-star collisions and planetary ejections away from the binary, in the cases of planet mass equal to $0,1, 30$ Jupiter masses. An interesting result is that in the particular case of stars of equal mass and moving on an $e=0.5$ orbit, for all planet masses studied here, the largest fraction of unstable orbits result into a collision of the planet onto the primary star, followed by ejection and collisions onto the secondary. A planet-star collision might result in the pollution of stars with planetary material, which, in principle, would be detectable by accurate spectroscopic measurements. The measurements of iron abundance for a sample of $23$ wide binaries reported by \cite{Desidera2004} seem to rule out a contamination with a mass of iron greater than $1$ Earth Mass during the Main Sequence lifetime of the stars. The instability of planetary orbits in double star systems with a final fate as  ejection of the planet away from the binary system has an relevance in increasing the number of freely-floating planets as detected by gravitational microlensing \citep{Sumi2011}.
-
-    For our study, we made some assumptions. We considered binary systems hosting a single planet moving on an unperturbed circular orbit around the primary on the same plane of the revolving binary. For the output data reduction and analysis, we implemented a code based on standard Python tools (\emph{numpy}, \emph{pandas}) which showed to be very effective.
-
-    A joint implementation of the high-order integration code with our data analysis tool on a High Performance Computing (HPC) platforms via standard techniques will allow a significant extension of the space of parameters to investigate.  In order to carefully analyse the large amount of output data produced using HPC platforms, a very promising way is based on Machine Learning techniques (see \cite{Tamayo2016}), a task that we intend to attack in a future work.
-</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         </div>
       </div>
       <div class='panel panel-default'>
         <div class='panel-body'>
           <h4>References</h4>
           <p class='small'>
-            Wiegert (1999, AJ, 117, n.1, 621)
-Museliak et al. (2005, A&A, 434, 355)
-\citep{dvo86}
-\cite{hen68,hen69}
-\cite{hengu70}
-\cite{sz80}
-\cite{1988A&A...191..385R}
-\cite{de85}
-\cite{howi99}
-\cite{wiho91}
-\cite{mu05}
-\cite{cu14,cu15}
-\cite{Marzari2016}
-\cite{Rein2015}
-\cite{Rein2012}
-\citep{Liu2008}
-\citep{Sato2010}
-citep{Sumi2011}
-\cite{Tamayo2016}
+            Mayor, M. &amp; Queloz, D., Nature 378, 355 (1995), <a href='https://ui.adsabs.harvard.edu/abs/1995Natur.378..355M/abstract' target='_blank'>ADS</a><br>
+            Wolszczan, A. &amp; Frail, D. A., Nature 355, 145 (1992), <a href='https://ui.adsabs.harvard.edu/abs/1992Natur.355..145W/abstract' target='_blank'>ADS</a><br>
+            Struve, O., The Observatory, 72, 199 (1952), <a href='https://ui.adsabs.harvard.edu/abs/1952Obs....72..199S/abstract' target='_blank'>ADS</a><br>
           </p>
         </div>
       </div>
@@ -147,3 +106,4 @@ citep{Sumi2011}
 </div>
 </body>
 </html>
+
