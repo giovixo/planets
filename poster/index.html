@@ -112,28 +112,30 @@
                   <em>Figure 1: An artistic view of the planetary orbits in a binary star system. Credit: astronomy.com (Roen Kelly)</em>
                 </p>
 
-                Orbits of planets in binary systems (Fig. 1) are traditionally classified
-                into three categories (<a
-                href="https://ui.adsabs.harvard.edu/abs/1986A%26A...167..379D/abstract" target="_blank"
-                >Dvorak 1986</a>): i) the Planet-type (P-type)
-                external orbits around both stars in the binary, ii) the
-                Satellite type (S-type) internal orbits, around one of the two
-                stars, and iii) the Libration-type (L-type) orbits,
-                corresponding to librations around the Lagrangian equilibrium
-                points.
-
-                <br>
-                In this poster, we report some outcomes of the numerical study of:
-                <ul>
-                  <li>the stability of S-type orbits of
-                    planets with a negligible mass as well as with a mass of the
-                    order of one or 30 Jupiter mass;</li>
-                  <li>the consequences of a star scattering with the planetary system, with
-                    different initial conditions typical of encounters in small star
-                    clusters.</li>
-                </ul>
-                Two publications with more details and results on these topics are in preparation.
-              </p>
+                <p>
+                  Orbits of planets in binary systems (Fig. 1) are traditionally classified
+                  into three categories (<a
+                  href="https://ui.adsabs.harvard.edu/abs/1986A%26A...167..379D/abstract" target="_blank"
+                  >Dvorak 1986</a>): i) the Planet-type (P-type)
+                  external orbits around both stars in the binary, ii) the
+                  Satellite type (S-type) internal orbits, around one of the two
+                  stars, and iii) the Libration-type (L-type) orbits (T-type in Fig. 1),
+                  corresponding to librations around the Lagrangian equilibrium
+                  points.
+                </p>  
+                
+                <p>
+                  In this poster, we report some outcomes of the numerical study of:
+                  <ul>
+                    <li>the stability of S-type orbits of
+                      planets with a negligible mass as well as with a mass of the
+                      order of one or 30 Jupiter mass;</li>
+                    <li>the consequences of a star scattering with the planetary system, with
+                      different initial conditions typical of encounters in small star
+                      clusters.</li>
+                  </ul>
+                  Two publications with more details and results on these topics are in preparation.
+                </p>
             </div>
           </div>
           <div class="panel panel-default">
@@ -147,13 +149,16 @@
                 />
               </p>
               <p class="small">
-                <em>Figure 2: an example stable planetary orbity (cyan) shown in the frame of the primary star (red circle)
+                <em>Figure 2: An example stable planetary orbity (cyan) shown in the frame of the primary star (red circle)
                   . The secondary star, at the distance of 10 AU from the primary star, is not shown. The blue circle is 
                   the unperturbed orbit, i.e. the orbit of the planet if there was no secondary star. </em>
               </p>
               <p>
-                An example of stable planetary orbit is shown in Fig. 2. As a demostration, we also created a <em>real time</em> orbit simulator, avaliable as a <a href="https://giovixo.github.io/exoplanets/index.html" target="_blank">web application</a>. To cover a large set of different configurations, 
-                we made long term simulations of a large number (more than ten thousand) of planetary orbits, using the 
+                An example of stable planetary orbit is shown in Fig. 2. As a demostration, we also created a prototype 
+                of a <a href="https://giovixo.github.io/exoplanets/index.html" target="_blank">real time orbit simulator</a>. 
+                To cover a large set of different configurations, 
+                we made long term numerical integrations of a large number (more than ten thousand) of planetary 
+                orbits, using the 
                 high precision 15th order integration scheme <a href="https://ui.adsabs.harvard.edu/abs/2015MNRAS.446.
                 1424R/abstract" target="_blank">IAS15</a>, available whitin the <a href="https://rebound.readthedocs.io/" 
                 target="_blank">REBOUND</a> code. The stability of the orbits depends mainly on the initial distance of 
@@ -167,7 +172,7 @@
         <div class="col-sm-4">
           <div class="panel panel-default">
             <div class="panel-body">
-              <h3>Results</h3>
+              <h3>Results (part 1)</h3>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -177,15 +182,24 @@
                 nulla pariatur.
               </p>
               <p>
-                <a href="https://tess.mit.edu/publications/" target="_blank">
-                  <img
-                    src="https://tess.mit.edu/wp-content/uploads/wasp-18b-as-1024x743.png"
-                    width="100%"
-                    height="auto"
-                /></a>
+                <img
+                  src="https://github.com/giovixo/images/blob/master/planet_pm00_mu0_50_dist0_392.png?raw=true"
+                  width="100%"
+                  height="auto"
+                />
               </p>
               <p class="small">
-                <em>Figure 2: TESS light curve. Credit: MIT</em>
+                <em>Figure 3: An example of collision of the planet (cyan) with the secondary star (red). </em>
+              </p>
+              <p>
+                <img
+                  src="https://github.com/giovixo/images/blob/master/planet_l_+1_pm00_mu0_50_dist0_404.png?raw=true"
+                  width="100%"
+                  height="auto"
+                />
+              </p>
+              <p class="small">
+                <em>Figure 4: An example of ejection of the planet (cyan) away from the binary.</em>
               </p>
               <p>
                 Excepteur sint occaecat cupidatat non proident, sunt in culpa
@@ -195,10 +209,74 @@
                 minim veniam, quis nostrud exercitation ullamco laboris nisi ut
                 aliquip ex ea commodo consequat.
               </p>
+              <p>
+                <img
+                  src="https://github.com/giovixo/images/blob/master/stability-stat_bar1_v2.png?raw=true"
+                  width="100%"
+                  height="auto"
+                />
+              </p>
+              <p class="small">
+                <em>Figure 5: Synopsis of the stability for three different values of the planet mass (0, 1, 30 Jupiter mass) in a binary with &mu; = 0.5, e = 0.5. The labels are: ST for stable and marginally stable orbits, CA and CB for collisions with the primary or secondary star, EJ for ejections.</em>
+              </p>
+              <p>
+                Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                qui officia deserunt mollit anim id est laborum. Lorem ipsum
+                dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                aliquip ex ea commodo consequat.
+              </p>
+              <p>
+                <a
+                  href="https://github.com/giovixo/images/blob/master/critical_semi_major_axis_table.png?raw=true"
+                  target="_blank">
+                <img
+                  src="https://github.com/giovixo/images/blob/master/critical_semi_major_axis_table.png?raw=true"
+                  width="100%"
+                  height="auto"
+                />
+                </a>
+              </p>
+              <p class="small">
+                <em>Table 1: Critical semi-major axis for a planet mass (m) of 30 Jupiter mass, and for a planet of negligible mass, as a function of the mass ratio &mu; and the eccentricity e of the binary (click on the figure to enlarge the table on a new tab).</em>
+              </p>
             </div>
           </div>
         </div>
         <div class="col-sm-4">
+          <div class="panel panel-default">
+            <div class="panel-body">
+              <h3>Results (part 2)</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </p>
+
+              <p>
+                <img
+                  src="https://github.com/giovixo/images/blob/master/scattering.jpg?raw=true"
+                  width="100%"
+                  height="auto"
+                />
+              </p>
+              <p class="small">
+                <em>Figure 6: the behaviour of the system in case b) for the passage of the perturbator with initial b=37.053 AU and vy=1.6937 AU/Y. In this case, the planet (green) is temporarely caught by S2 (red) before leaving the system. The simulation reported goes from 400 yrs to 1070 yrs since the beginning of the simulation.</em>
+              </p>
+
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat.
+              </p>
+            </div>
+          </div>
           <div class="panel panel-default">
             <div class="panel-body">
               <h3>Conclusions</h3>
